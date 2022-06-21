@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import CardView from './components/Product/CardView/CardView';
 
 const ThemeContext = React.createContext();
 
@@ -41,6 +42,17 @@ export default function App() {
           </div>
         </nav>
       </div>
+      {products.map((product, index) => {
+        return (
+          <CardView
+            key={index}
+            title={product.title}
+            categories={product.category.name}
+            price={product.price}
+            // image={product.images[0]}
+          />
+        );
+      })}
     </ThemeContext.Provider>
   );
 }
