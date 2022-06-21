@@ -1,13 +1,16 @@
+
 import React, { useEffect, useState } from "react";
 import CardView from "./components/Product/CardView/CardView";
 import AllProducts from "./components/Navbar/AllProducts/AllProducts";
 
 export const ThemeProduct = React.createContext();
 
+
 export default function App() {
   const [products, setProducts] = useState([{}]);
 
   useEffect(() => {
+
     fetch("https://fakestoreapi.com/products")
       .then((res) => res.json())
       .then((data) => setProducts((prev) => (prev[0] = data)));
@@ -38,11 +41,13 @@ export default function App() {
               </li>
               <li className="h-12 px-5 border-l-2 border-r-2 flex items-center">
                 <a href="#">Sign up</a>
+
               </li>
             </ul>
           </div>
         </nav>
       </div>
+
       <ThemeProduct.Provider value={products}>
         <AllProducts />
         {/* {products.map((product, index) => {
@@ -50,6 +55,7 @@ export default function App() {
           <CardView
             key={index}
             title={product.title}
+
             categories={product.category}
             price={product.price}
             image={product.image}
@@ -58,5 +64,6 @@ export default function App() {
       })} */}
       </ThemeProduct.Provider>
     </>
+
   );
 }
