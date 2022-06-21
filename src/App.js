@@ -1,4 +1,5 @@
 import React from 'react';
+import ProductDetail from './components/Product/ProductDetail/ProductDetail';
 
 export default function App() {
   return (
@@ -7,6 +8,7 @@ export default function App() {
       <ul>
         <li>asdasd</li>
       </ul>
+      <ProductDetail />
     </div>
   );
 }
