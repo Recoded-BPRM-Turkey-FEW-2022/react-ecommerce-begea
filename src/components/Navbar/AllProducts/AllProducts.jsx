@@ -6,7 +6,7 @@ export default function AllProducts() {
   const single = useContext(ThemeProduct);
   console.log(single);
   return (
-    <div class="flex flex-wrap gap-8 m-auto w-3/4 mt-8">
+    <div className="flex flex-wrap gap-8 m-auto w-3/4 mt-8">
       {single.map((product, index) => {
         return (
           <CardView

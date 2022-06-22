@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from "react";
 import CardView from "./components/Product/CardView/CardView";
 import AllProducts from "./components/Navbar/AllProducts/AllProducts";
+import ProductDetail from "./components/Product/ProductDetail/ProductDetail";
+
 
 export const ThemeProduct = React.createContext();
 
@@ -22,7 +24,7 @@ export default function App() {
 
   return (
     <>
-      <div className="max-w-full border-b-2">
+     <div className="max-w-full border-b-2">
         <nav className="flex justify-between align-middle max-w-7xl mx-auto ">
           <div className="logo text-2xl">Logo</div>
           <div className="nav-links flex items-center ">
@@ -47,9 +49,10 @@ export default function App() {
           </div>
         </nav>
       </div>
-
       <ThemeProduct.Provider value={products}>
         <AllProducts />
+        <ProductDetail />
+
         {/* {products.map((product, index) => {
         return (
           <CardView
