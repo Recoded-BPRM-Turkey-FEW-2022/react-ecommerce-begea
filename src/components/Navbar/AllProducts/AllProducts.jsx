@@ -12,9 +12,9 @@ export default function AllProducts() {
           <CardView
             key={index}
             title={product.title}
-            categories={product.category}
+            categories={product.category.name}
             price={product.price}
-            image={product.image}
+            image={product.category.image}
           />
         );
       })}
