@@ -1,13 +1,13 @@
-import { Link } from "react-router-dom";
-import { useContext } from "react";
-import { ProductsContext } from "../../../api/ProductsContext";
-import CardView from "../../Product/CardView/CardView";
+import { Link } from 'react-router-dom';
+import { useContext } from 'react';
+import { ProductsContext } from '../../../api/ProductsContext';
+import CardView from '../../Product/CardView/CardView';
 
 export default function ListProducts({ setClickedProduct }) {
   const products = useContext(ProductsContext);
 
   return (
-    <div className="flex flex-wrap gap-8 w-3/4 mt-8 max-w-7xl m-auto justify-around">
+    <div className='flex flex-wrap gap-8 w-3/4 mt-8 max-w-7xl m-auto justify-around'>
       {products.map((product, index) => {
         return (
           <CardView
@@ -18,7 +18,7 @@ export default function ListProducts({ setClickedProduct }) {
             image={
               product.images[0]
                 ? product.images[0]
-                : (src = "images/no-image.png")
+                : (src = 'images/no-image.png')
             }
             setClickedProduct={setClickedProduct}
             description={product.description}
