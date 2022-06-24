@@ -28,7 +28,12 @@ export default function App() {
           />
           <Route
             path='/search-result'
-            element={<Search foundProduct={foundProduct} />}
+            element={
+              <Search
+                foundProduct={foundProduct}
+                setClickedProduct={setClickedProduct}
+              />
+            }
           />
           <Route
             path='/product/:product'

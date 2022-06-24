@@ -1,6 +1,6 @@
 // search
 import CardView from '../../Product/CardView/CardView';
-export default function ({ foundProduct }) {
+export default function ({ foundProduct, setClickedProduct }) {
   return (
     <>
       <div className='flex flex-wrap gap-8 w-3/4 mt-8 max-w-7xl m-auto justify-around'>
@@ -10,9 +10,11 @@ export default function ({ foundProduct }) {
               <CardView
                 key={index}
                 title={product.title}
+                description={product.description}
                 categories={product.category.name}
                 price={product.price}
                 image={product.category.image}
+                setClickedProduct={setClickedProduct}
               />
             );
           })
