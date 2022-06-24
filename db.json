@@ -1,3 +1,28 @@
 {
-  "cart": []
+  "cart": [
+    {
+      "categories": "Furniture",
+      "title": "Generic Granite Sausages",
+      "price": 40,
+      "image": "https://api.lorem.space/image/furniture?w=640&h=480&r=4899",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "id": 3
+    },
+    {
+      "categories": "Shoes",
+      "title": "Intelligent Concrete Ball",
+      "price": 377,
+      "image": "https://api.lorem.space/image/shoes?w=640&h=480&r=3527",
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "id": 4
+    },
+    {
+      "categories": "Others",
+      "title": "Generic Rubber Salad",
+      "price": 711,
+      "image": "https://api.lorem.space/image?w=640&h=480&r=6365",
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "id": 5
+    }
+  ]
 }
