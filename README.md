@@ -6,7 +6,7 @@ Welcome to our site where you can find every product you are looking for, from t
 
 ### Site Screenshots
 
-![mockup](./images/1.png)
+![mockup](.\images\1.png)
 ![mockup](./images/2.png)
 ![mockup](./images/3.png)
 ![mockup](./images/4.png)
@@ -14,11 +14,11 @@ Welcome to our site where you can find every product you are looking for, from t
 
 <br>
 
-## Tools Used
+### Tools Used
 
 `[axios]`, `[json-server]`, `[lodash]`,`[react]`, `[react-dom]`, `[react-icons]`, `[react-query]`, `[react-router-dom]`, `[autoprefixer]`, `[postcss]`,`[react-scripts]`, `[tailwindcss]`.
 
-### Made By -
+## Made By -
 
 - **Gizem Haspolat**
 
