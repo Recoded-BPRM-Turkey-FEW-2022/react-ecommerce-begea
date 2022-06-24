@@ -6,7 +6,7 @@ Welcome to our site where you can find every product you are looking for, from t
 
 ### Site Screenshots
 
-![main](/images/1.png)
+![1](https://user-images.githubusercontent.com/101428880/175692066-80b51757-ab51-41a0-adc6-ba1b2316e49c.png)
 ![allproducts](/images/2.png)
 ![search](/images/3.png)
 ![productdetail](/images/4.png)
