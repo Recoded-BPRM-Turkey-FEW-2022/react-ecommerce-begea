@@ -86,7 +86,7 @@ function Cart() {
   }
 
   return (
-    <div className=' p-8 w-9/12 h-auto border-r-5 m-auto max-w-7xl w-auto'>
+    <div className=' p-8 h-auto border-r-5 m-auto max-w-7xl w-auto'>
       <div className='mb-5'>
         {content.length > 0 ? (
           content
