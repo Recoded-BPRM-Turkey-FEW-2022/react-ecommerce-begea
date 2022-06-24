@@ -4,7 +4,6 @@ import { ThemeProduct } from "../../../App";
 
 export default function AllProducts() {
   const single = useContext(ThemeProduct);
-  console.log(single);
   return (
     <div class="flex flex-wrap gap-8 m-auto w-3/4 mt-8">
       {single.map((product, index) => {
@@ -14,7 +13,11 @@ export default function AllProducts() {
             title={product.title}
             categories={product.category.name}
             price={product.price}
-            image={product.category.image}
+            image={
+              product.category.image
+                ? product.category.image
+                : (src = "images/no-image.png")
+            }
           />
         );
       })}
