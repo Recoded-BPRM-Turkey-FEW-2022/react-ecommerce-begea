@@ -6,11 +6,11 @@ Welcome to our site where you can find every product you are looking for, from t
 
 ### Site Screenshots
 
-![mockup](.\images\1.png)
-![mockup](./images/2.png)
-![mockup](./images/3.png)
-![mockup](./images/4.png)
-![mockup](./images/5.png)
+![main](/images/1.png)
+![allproducts](/images/2.png)
+![search](/images/3.png)
+![productdetail](/images/4.png)
+![cart](/images/5.png)
 
 <br>
 
