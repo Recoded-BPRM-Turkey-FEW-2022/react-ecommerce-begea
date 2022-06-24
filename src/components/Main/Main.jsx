@@ -5,7 +5,7 @@ import table from '../../images/tables.png';
 
 export default function Main() {
   return (
-    <div className='h-screen'>
+    <div className=''>
       <div className='max-w-7xl m-auto border-x border-y border-black-100 overflow-hidden relative p-5'>
         <div className='flex justify-between items-center'>
           <div className='w-2/4 p-3 z-10'>
