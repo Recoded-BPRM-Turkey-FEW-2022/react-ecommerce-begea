@@ -46,13 +46,10 @@ export default function Navbar({ setFoundProduct }) {
               </Link>
             </li>
             <li className="hover:underline">
-              <Link
-                to="/cart"
-                className="flex justify-center items-center gap-2"
-              >
+              <a href="#" className="flex justify-center items-center gap-2">
                 {" "}
                 <GrCart /> Cart
-              </Link>
+              </a>
             </li>
             <li className="hover:underline">
               <Link to="/allproducts">All Products</Link>
