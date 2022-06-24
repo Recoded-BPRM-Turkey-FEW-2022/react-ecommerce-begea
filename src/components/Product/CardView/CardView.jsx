@@ -26,11 +26,11 @@ function CardView({
         className='bg-transparent font-Roboto grid rounded-sm p-4 overflow-hidden border-x border-y w-64 transition-all duration-300 hover:bg-white hover:cursor-pointer hover:shadow-md'
         onClick={handleOnClick}
       >
-        <div className='max-w-sm flex justify-center mb-4'>
+        <div className='max-w-sm flex justify-center mb-4 overflow-hidden h-64 lg:h-32 rounded-md'>
           <img
             src={image}
             alt='product image'
-            className='w-auto h-32 sm:h-48 object-cover'
+            className='lg:rounded-md max-w-sm'
           />
         </div>
         <div className=' mb-3 flex flex-col items-center '>

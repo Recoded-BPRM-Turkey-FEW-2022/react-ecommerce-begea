@@ -5,7 +5,6 @@ import {
   useQuery,
   useQueryClient,
 } from 'react-query';
-import { useState } from 'react';
 import { getCart, deleteProduct } from '../../../api/cartApi';
 
 const queryClientMain = new QueryClient();
