@@ -7,10 +7,10 @@ Welcome to our site where you can find every product you are looking for, from t
 ### Site Screenshots
 
 ![1](https://user-images.githubusercontent.com/101428880/175692066-80b51757-ab51-41a0-adc6-ba1b2316e49c.png)
-![allproducts](/images/2.png)
-![search](/images/3.png)
-![productdetail](/images/4.png)
-![cart](/images/5.png)
+![2](https://user-images.githubusercontent.com/101428880/175694440-590be2f5-ed98-4b77-a90c-ea3c680e34df.png)
+![3](https://user-images.githubusercontent.com/101428880/175694517-33015489-c008-4211-8914-c4735ee6d74e.png)
+![4](https://user-images.githubusercontent.com/101428880/175694588-61628bb4-1c83-4e4b-b1be-d9fb8de4173d.png)
+![5](https://user-images.githubusercontent.com/101428880/175694650-44d8247d-9f18-4f38-ace2-8444a5785aed.png)
 
 <br>
 
